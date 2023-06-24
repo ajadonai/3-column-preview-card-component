@@ -1,0 +1,66 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  font: 700 2rem "Big Shoulders Display", cursive;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font: 400 0.9rem "Lexend Deca", sans-serif;
+}
+
+/* Vehicle Type Styles */
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+/* Button Styles */
+.btn {
+  background-color: white;
+}
+.sedan .btn {
+  color: hsl(31, 77%, 52%);
+}
+.suv .btn {
+  color: hsl(184, 100%, 22%);
+}
+.luxury .btn {
+  color: hsl(179, 100%, 13%);
+}
+.btn:hover {
+  color: hsl(0, 0%, 95%);
+  border: 2px solid white;
+}
+
+/* Attribution Styles */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Container Width Media Queries */
+@media screen and (min-width: 700px) {
+  .w-800 {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .w-800 {
+    width: 90%;
+  }
+}
